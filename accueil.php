@@ -16,7 +16,7 @@
 
    
 
-    if(isset($_POST['password']) AND $_POST['password'] == "test") {
+    if(isset($_POST['password']) AND $_POST['password'] == $password) {
         echo "bienvenue ". $_POST['pseudo']. ". Vous êtes sur votre espace de gestion, que souhaitez vous faire ?";
         
         ?>
